@@ -32,3 +32,6 @@ for item in loaded:
                 tide_date = item['date']
                 tide_type = c['tide_type']
                 tide_time = c['tideTime']
+                print(tide_date, tide_type, tide_time)
+
+# read today only date
