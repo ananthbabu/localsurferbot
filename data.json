@@ -1,2743 +1,2299 @@
-{
-  "data": {
-    "request": [
-      {
-        "type": "LatLon",
-        "query": "Lat -30.28 and Lon 30.76"
+[
+  {
+    "timestamp": 1515283200,
+    "localTimestamp": 1515283200,
+    "issueTimestamp": 1515283200,
+    "fadedRating": 0,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.54,
+      "absMaxBreakingHeight": 3.96,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 4,
+          "period": 9,
+          "direction": 272.97,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 9,
+          "direction": 270.63,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.3,
+          "period": 11,
+          "direction": 19.07,
+          "compassDirection": "SSW"
+        }
       }
-    ],
-    "weather": [
-      {
-        "date": "2018-01-06",
-        "astronomy": [
-          {
-            "sunrise": "05:02 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "10:39 PM",
-            "moonset": "09:36 AM"
-          }
-        ],
-        "maxtempC": "26",
-        "maxtempF": "78",
-        "mintempC": "22",
-        "mintempF": "72",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "12:19 AM",
-                "tideHeight_mt": "0.27",
-                "tideDateTime": "2018-01-06 00:19",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "6:37 AM",
-                "tideHeight_mt": "1.89",
-                "tideDateTime": "2018-01-06 06:37",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "12:44 PM",
-                "tideHeight_mt": "0.47",
-                "tideDateTime": "2018-01-06 12:44",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "6:47 PM",
-                "tideHeight_mt": "1.78",
-                "tideDateTime": "2018-01-06 18:47",
-                "tide_type": "HIGH"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "9",
-            "windspeedKmph": "14",
-            "winddirDegree": "230",
-            "winddir16Point": "SW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.1",
-            "humidity": "83",
-            "visibility": "10",
-            "pressure": "1012",
-            "cloudcover": "61",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "20",
-            "DewPointF": "67",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "11",
-            "WindGustKmph": "18",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.3",
-            "swellHeight_m": "1.2",
-            "swellHeight_ft": "3.9",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "7",
-            "windspeedKmph": "12",
-            "winddirDegree": "233",
-            "winddir16Point": "SW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "83",
-            "visibility": "10",
-            "pressure": "1011",
-            "cloudcover": "41",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "8",
-            "WindGustKmph": "13",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "24",
-            "tempF": "75",
-            "windspeedMiles": "6",
-            "windspeedKmph": "10",
-            "winddirDegree": "204",
-            "winddir16Point": "SSW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "75",
-            "visibility": "10",
-            "pressure": "1011",
-            "cloudcover": "53",
-            "HeatIndexC": "26",
-            "HeatIndexF": "78",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "24",
-            "WindChillF": "75",
-            "WindGustMiles": "15",
-            "WindGustKmph": "24",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "25",
-            "tempF": "77",
-            "windspeedMiles": "7",
-            "windspeedKmph": "12",
-            "winddirDegree": "164",
-            "winddir16Point": "SSE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "70",
-            "visibility": "10",
-            "pressure": "1010",
-            "cloudcover": "31",
-            "HeatIndexC": "27",
-            "HeatIndexF": "80",
-            "DewPointC": "19",
-            "DewPointF": "67",
-            "WindChillC": "25",
-            "WindChillF": "77",
-            "WindGustMiles": "12",
-            "WindGustKmph": "19",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "80",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "26",
-            "tempF": "78",
-            "windspeedMiles": "10",
-            "windspeedKmph": "15",
-            "winddirDegree": "161",
-            "winddir16Point": "SSE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "68",
-            "visibility": "10",
-            "pressure": "1009",
-            "cloudcover": "6",
-            "HeatIndexC": "27",
-            "HeatIndexF": "81",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "26",
-            "WindChillF": "78",
-            "WindGustMiles": "11",
-            "WindGustKmph": "18",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "81",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "25",
-            "tempF": "76",
-            "windspeedMiles": "10",
-            "windspeedKmph": "16",
-            "winddirDegree": "160",
-            "winddir16Point": "SSE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "72",
-            "visibility": "10",
-            "pressure": "1009",
-            "cloudcover": "35",
-            "HeatIndexC": "26",
-            "HeatIndexF": "80",
-            "DewPointC": "19",
-            "DewPointF": "67",
-            "WindChillC": "25",
-            "WindChillF": "76",
-            "WindGustMiles": "12",
-            "WindGustKmph": "19",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "80",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "23",
-            "tempF": "74",
-            "windspeedMiles": "7",
-            "windspeedKmph": "12",
-            "winddirDegree": "167",
-            "winddir16Point": "SSE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "78",
-            "visibility": "10",
-            "pressure": "1011",
-            "cloudcover": "23",
-            "HeatIndexC": "25",
-            "HeatIndexF": "78",
-            "DewPointC": "19",
-            "DewPointF": "67",
-            "WindChillC": "23",
-            "WindChillF": "74",
-            "WindGustMiles": "8",
-            "WindGustKmph": "12",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "3",
-            "windspeedKmph": "5",
-            "winddirDegree": "297",
-            "winddir16Point": "WNW",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "80",
-            "visibility": "10",
-            "pressure": "1012",
-            "cloudcover": "7",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "4",
-            "WindGustKmph": "6",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
-      },
-      {
-        "date": "2018-01-07",
-        "astronomy": [
-          {
-            "sunrise": "05:03 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "11:16 PM",
-            "moonset": "10:37 AM"
-          }
-        ],
-        "maxtempC": "26",
-        "maxtempF": "79",
-        "mintempC": "22",
-        "mintempF": "71",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "1:01 AM",
-                "tideHeight_mt": "0.40",
-                "tideDateTime": "2018-01-07 01:01",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "7:22 AM",
-                "tideHeight_mt": "1.77",
-                "tideDateTime": "2018-01-07 07:22",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "1:30 PM",
-                "tideHeight_mt": "0.60",
-                "tideDateTime": "2018-01-07 13:30",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "7:31 PM",
-                "tideHeight_mt": "1.63",
-                "tideDateTime": "2018-01-07 19:31",
-                "tide_type": "HIGH"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "2",
-            "windspeedKmph": "3",
-            "winddirDegree": "331",
-            "winddir16Point": "NNW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "81",
-            "visibility": "10",
-            "pressure": "1011",
-            "cloudcover": "31",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "4",
-            "WindGustKmph": "6",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.1",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.6",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "22",
-            "tempF": "71",
-            "windspeedMiles": "4",
-            "windspeedKmph": "6",
-            "winddirDegree": "23",
-            "winddir16Point": "NNE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "82",
-            "visibility": "10",
-            "pressure": "1010",
-            "cloudcover": "31",
-            "HeatIndexC": "24",
-            "HeatIndexF": "76",
-            "DewPointC": "19",
-            "DewPointF": "65",
-            "WindChillC": "22",
-            "WindChillF": "71",
-            "WindGustMiles": "13",
-            "WindGustKmph": "21",
-            "FeelsLikeC": "22",
-            "FeelsLikeF": "71",
-            "sigHeight_m": "1.1",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.5",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "24",
-            "tempF": "75",
-            "windspeedMiles": "5",
-            "windspeedKmph": "8",
-            "winddirDegree": "64",
-            "winddir16Point": "ENE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "75",
-            "visibility": "10",
-            "pressure": "1010",
-            "cloudcover": "49",
-            "HeatIndexC": "26",
-            "HeatIndexF": "78",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "24",
-            "WindChillF": "75",
-            "WindGustMiles": "19",
-            "WindGustKmph": "30",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.0",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.4",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "26",
-            "tempF": "78",
-            "windspeedMiles": "9",
-            "windspeedKmph": "14",
-            "winddirDegree": "82",
-            "winddir16Point": "E",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "72",
-            "visibility": "10",
-            "pressure": "1009",
-            "cloudcover": "27",
-            "HeatIndexC": "28",
-            "HeatIndexF": "82",
-            "DewPointC": "20",
-            "DewPointF": "69",
-            "WindChillC": "26",
-            "WindChillF": "78",
-            "WindGustMiles": "13",
-            "WindGustKmph": "20",
-            "FeelsLikeC": "28",
-            "FeelsLikeF": "82",
-            "sigHeight_m": "1.1",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.4",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "26",
-            "tempF": "79",
-            "windspeedMiles": "13",
-            "windspeedKmph": "21",
-            "winddirDegree": "82",
-            "winddir16Point": "E",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "74",
-            "visibility": "10",
-            "pressure": "1007",
-            "cloudcover": "28",
-            "HeatIndexC": "28",
-            "HeatIndexF": "82",
-            "DewPointC": "21",
-            "DewPointF": "69",
-            "WindChillC": "26",
-            "WindChillF": "79",
-            "WindGustMiles": "15",
-            "WindGustKmph": "24",
-            "FeelsLikeC": "28",
-            "FeelsLikeF": "82",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.5",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "25",
-            "tempF": "78",
-            "windspeedMiles": "14",
-            "windspeedKmph": "22",
-            "winddirDegree": "82",
-            "winddir16Point": "E",
-            "weatherCode": "119",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0003_white_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "79",
-            "visibility": "10",
-            "pressure": "1007",
-            "cloudcover": "71",
-            "HeatIndexC": "27",
-            "HeatIndexF": "81",
-            "DewPointC": "21",
-            "DewPointF": "70",
-            "WindChillC": "25",
-            "WindChillF": "78",
-            "WindGustMiles": "20",
-            "WindGustKmph": "33",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "81",
-            "sigHeight_m": "1.3",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "8.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "24",
-            "tempF": "76",
-            "windspeedMiles": "11",
-            "windspeedKmph": "18",
-            "winddirDegree": "64",
-            "winddir16Point": "ENE",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.2",
-            "humidity": "87",
-            "visibility": "10",
-            "pressure": "1009",
-            "cloudcover": "92",
-            "HeatIndexC": "27",
-            "HeatIndexF": "80",
-            "DewPointC": "22",
-            "DewPointF": "72",
-            "WindChillC": "24",
-            "WindChillF": "76",
-            "WindGustMiles": "12",
-            "WindGustKmph": "19",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "80",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "24",
-            "tempF": "75",
-            "windspeedMiles": "9",
-            "windspeedKmph": "14",
-            "winddirDegree": "47",
-            "winddir16Point": "NE",
-            "weatherCode": "122",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Overcast"
-              }
-            ],
-            "precipMM": "0.1",
-            "humidity": "87",
-            "visibility": "10",
-            "pressure": "1010",
-            "cloudcover": "93",
-            "HeatIndexC": "26",
-            "HeatIndexF": "79",
-            "DewPointC": "22",
-            "DewPointF": "71",
-            "WindChillC": "24",
-            "WindChillF": "75",
-            "WindGustMiles": "12",
-            "WindGustKmph": "19",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "79",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.2",
-            "swellHeight_ft": "3.9",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.1",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
-      },
-      {
-        "date": "2018-01-08",
-        "astronomy": [
-          {
-            "sunrise": "05:04 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "11:51 PM",
-            "moonset": "11:36 AM"
-          }
-        ],
-        "maxtempC": "27",
-        "maxtempF": "80",
-        "mintempC": "23",
-        "mintempF": "73",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "1:46 AM",
-                "tideHeight_mt": "0.54",
-                "tideDateTime": "2018-01-08 01:46",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "8:11 AM",
-                "tideHeight_mt": "1.64",
-                "tideDateTime": "2018-01-08 08:11",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "2:24 PM",
-                "tideHeight_mt": "0.73",
-                "tideDateTime": "2018-01-08 14:24",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "8:22 PM",
-                "tideHeight_mt": "1.48",
-                "tideDateTime": "2018-01-08 20:22",
-                "tide_type": "HIGH"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "23",
-            "tempF": "74",
-            "windspeedMiles": "7",
-            "windspeedKmph": "12",
-            "winddirDegree": "51",
-            "winddir16Point": "NE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.1",
-            "humidity": "88",
-            "visibility": "10",
-            "pressure": "1008",
-            "cloudcover": "35",
-            "HeatIndexC": "26",
-            "HeatIndexF": "78",
-            "DewPointC": "21",
-            "DewPointF": "71",
-            "WindChillC": "23",
-            "WindChillF": "74",
-            "WindGustMiles": "12",
-            "WindGustKmph": "19",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.2",
-            "swellHeight_ft": "3.9",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.2",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "7",
-            "windspeedKmph": "11",
-            "winddirDegree": "54",
-            "winddir16Point": "NE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "89",
-            "visibility": "10",
-            "pressure": "1008",
-            "cloudcover": "59",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "21",
-            "DewPointF": "70",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "9",
-            "WindGustKmph": "14",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.2",
-            "swellHeight_ft": "3.9",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.3",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "25",
-            "tempF": "77",
-            "windspeedMiles": "6",
-            "windspeedKmph": "9",
-            "winddirDegree": "83",
-            "winddir16Point": "E",
-            "weatherCode": "119",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0003_white_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "80",
-            "visibility": "10",
-            "pressure": "1009",
-            "cloudcover": "73",
-            "HeatIndexC": "27",
-            "HeatIndexF": "80",
-            "DewPointC": "21",
-            "DewPointF": "70",
-            "WindChillC": "25",
-            "WindChillF": "77",
-            "WindGustMiles": "15",
-            "WindGustKmph": "24",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "80",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.2",
-            "swellHeight_ft": "3.9",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.5",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "27",
-            "tempF": "80",
-            "windspeedMiles": "6",
-            "windspeedKmph": "10",
-            "winddirDegree": "143",
-            "winddir16Point": "SE",
-            "weatherCode": "122",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Overcast"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "73",
-            "visibility": "10",
-            "pressure": "1010",
-            "cloudcover": "92",
-            "HeatIndexC": "29",
-            "HeatIndexF": "84",
-            "DewPointC": "21",
-            "DewPointF": "71",
-            "WindChillC": "27",
-            "WindChillF": "80",
-            "WindGustMiles": "11",
-            "WindGustKmph": "17",
-            "FeelsLikeC": "29",
-            "FeelsLikeF": "84",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "24",
-            "tempF": "76",
-            "windspeedMiles": "9",
-            "windspeedKmph": "15",
-            "winddirDegree": "181",
-            "winddir16Point": "S",
-            "weatherCode": "122",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Overcast"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "79",
-            "visibility": "10",
-            "pressure": "1011",
-            "cloudcover": "100",
-            "HeatIndexC": "26",
-            "HeatIndexF": "79",
-            "DewPointC": "20",
-            "DewPointF": "69",
-            "WindChillC": "24",
-            "WindChillF": "76",
-            "WindGustMiles": "30",
-            "WindGustKmph": "48",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "79",
-            "sigHeight_m": "1.3",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "23",
-            "tempF": "74",
-            "windspeedMiles": "15",
-            "windspeedKmph": "23",
-            "winddirDegree": "199",
-            "winddir16Point": "SSW",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.2",
-            "humidity": "82",
-            "visibility": "10",
-            "pressure": "1013",
-            "cloudcover": "100",
-            "HeatIndexC": "25",
-            "HeatIndexF": "78",
-            "DewPointC": "20",
-            "DewPointF": "68",
-            "WindChillC": "23",
-            "WindChillF": "74",
-            "WindGustMiles": "32",
-            "WindGustKmph": "51",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.3",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "9.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "19",
-            "windspeedKmph": "30",
-            "winddirDegree": "197",
-            "winddir16Point": "SSW",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.8",
-            "humidity": "81",
-            "visibility": "10",
-            "pressure": "1016",
-            "cloudcover": "100",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "19",
-            "DewPointF": "67",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "30",
-            "WindGustKmph": "49",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.3",
-            "swellHeight_m": "0.9",
-            "swellHeight_ft": "3.0",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "9.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "19",
-            "windspeedKmph": "31",
-            "winddirDegree": "194",
-            "winddir16Point": "SSW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.1",
-            "humidity": "74",
-            "visibility": "10",
-            "pressure": "1018",
-            "cloudcover": "60",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "18",
-            "DewPointF": "64",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "31",
-            "WindGustKmph": "50",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.6",
-            "swellHeight_m": "1.3",
-            "swellHeight_ft": "4.3",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "9.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
-      },
-      {
-        "date": "2018-01-09",
-        "astronomy": [
-          {
-            "sunrise": "05:04 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "No moonrise",
-            "moonset": "12:32 PM"
-          }
-        ],
-        "maxtempC": "24",
-        "maxtempF": "74",
-        "mintempC": "20",
-        "mintempF": "69",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "2:38 AM",
-                "tideHeight_mt": "0.68",
-                "tideDateTime": "2018-01-09 02:38",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "9:13 AM",
-                "tideHeight_mt": "1.53",
-                "tideDateTime": "2018-01-09 09:13",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "3:35 PM",
-                "tideHeight_mt": "0.84",
-                "tideDateTime": "2018-01-09 15:35",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "9:33 PM",
-                "tideHeight_mt": "1.36",
-                "tideDateTime": "2018-01-09 21:33",
-                "tide_type": "HIGH"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "22",
-            "tempF": "71",
-            "windspeedMiles": "18",
-            "windspeedKmph": "29",
-            "winddirDegree": "197",
-            "winddir16Point": "SSW",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.4",
-            "humidity": "75",
-            "visibility": "10",
-            "pressure": "1018",
-            "cloudcover": "100",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "17",
-            "DewPointF": "63",
-            "WindChillC": "22",
-            "WindChillF": "71",
-            "WindGustMiles": "28",
-            "WindGustKmph": "45",
-            "FeelsLikeC": "22",
-            "FeelsLikeF": "71",
-            "sigHeight_m": "1.7",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "9.9",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "22",
-            "tempF": "71",
-            "windspeedMiles": "17",
-            "windspeedKmph": "27",
-            "winddirDegree": "204",
-            "winddir16Point": "SSW",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.5",
-            "humidity": "73",
-            "visibility": "10",
-            "pressure": "1019",
-            "cloudcover": "100",
-            "HeatIndexC": "24",
-            "HeatIndexF": "76",
-            "DewPointC": "17",
-            "DewPointF": "62",
-            "WindChillC": "22",
-            "WindChillF": "71",
-            "WindGustMiles": "28",
-            "WindGustKmph": "45",
-            "FeelsLikeC": "22",
-            "FeelsLikeF": "71",
-            "sigHeight_m": "1.7",
-            "swellHeight_m": "1.6",
-            "swellHeight_ft": "5.2",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "10.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "17",
-            "windspeedKmph": "28",
-            "winddirDegree": "214",
-            "winddir16Point": "SSW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "62",
-            "visibility": "10",
-            "pressure": "1021",
-            "cloudcover": "40",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "15",
-            "DewPointF": "58",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "25",
-            "WindGustKmph": "40",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.7",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "11.6",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "24",
-            "tempF": "74",
-            "windspeedMiles": "18",
-            "windspeedKmph": "28",
-            "winddirDegree": "201",
-            "winddir16Point": "SSW",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "60",
-            "visibility": "10",
-            "pressure": "1021",
-            "cloudcover": "35",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "15",
-            "DewPointF": "59",
-            "WindChillC": "24",
-            "WindChillF": "74",
-            "WindGustMiles": "25",
-            "WindGustKmph": "40",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.6",
-            "swellHeight_ft": "5.2",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "11.2",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "18",
-            "windspeedKmph": "29",
-            "winddirDegree": "183",
-            "winddir16Point": "S",
-            "weatherCode": "119",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0003_white_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "69",
-            "visibility": "10",
-            "pressure": "1020",
-            "cloudcover": "77",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "16",
-            "DewPointF": "61",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "25",
-            "WindGustKmph": "40",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.6",
-            "swellHeight_ft": "5.2",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "11.1",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "21",
-            "tempF": "70",
-            "windspeedMiles": "17",
-            "windspeedKmph": "27",
-            "winddirDegree": "181",
-            "winddir16Point": "S",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.3",
-            "humidity": "72",
-            "visibility": "10",
-            "pressure": "1021",
-            "cloudcover": "98",
-            "HeatIndexC": "24",
-            "HeatIndexF": "76",
-            "DewPointC": "16",
-            "DewPointF": "60",
-            "WindChillC": "21",
-            "WindChillF": "70",
-            "WindGustMiles": "21",
-            "WindGustKmph": "33",
-            "FeelsLikeC": "21",
-            "FeelsLikeF": "70",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "11.1",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "21",
-            "tempF": "69",
-            "windspeedMiles": "14",
-            "windspeedKmph": "23",
-            "winddirDegree": "184",
-            "winddir16Point": "S",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.6",
-            "humidity": "74",
-            "visibility": "10",
-            "pressure": "1023",
-            "cloudcover": "86",
-            "HeatIndexC": "21",
-            "HeatIndexF": "69",
-            "DewPointC": "16",
-            "DewPointF": "60",
-            "WindChillC": "21",
-            "WindChillF": "69",
-            "WindGustMiles": "20",
-            "WindGustKmph": "32",
-            "FeelsLikeC": "21",
-            "FeelsLikeF": "69",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "7.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "20",
-            "tempF": "69",
-            "windspeedMiles": "12",
-            "windspeedKmph": "20",
-            "winddirDegree": "186",
-            "winddir16Point": "S",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.3",
-            "humidity": "74",
-            "visibility": "10",
-            "pressure": "1023",
-            "cloudcover": "68",
-            "HeatIndexC": "20",
-            "HeatIndexF": "69",
-            "DewPointC": "15",
-            "DewPointF": "60",
-            "WindChillC": "20",
-            "WindChillF": "69",
-            "WindGustMiles": "20",
-            "WindGustKmph": "32",
-            "FeelsLikeC": "20",
-            "FeelsLikeF": "69",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "6.9",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
-      },
-      {
-        "date": "2018-01-10",
-        "astronomy": [
-          {
-            "sunrise": "05:05 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "12:26 AM",
-            "moonset": "01:27 PM"
-          }
-        ],
-        "maxtempC": "23",
-        "maxtempF": "73",
-        "mintempC": "20",
-        "mintempF": "67",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "3:49 AM",
-                "tideHeight_mt": "0.79",
-                "tideDateTime": "2018-01-10 03:49",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "10:34 AM",
-                "tideHeight_mt": "1.47",
-                "tideDateTime": "2018-01-10 10:34",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "5:09 PM",
-                "tideHeight_mt": "0.87",
-                "tideDateTime": "2018-01-10 17:09",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "11:10 PM",
-                "tideHeight_mt": "1.31",
-                "tideDateTime": "2018-01-10 23:10",
-                "tide_type": "HIGH"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "20",
-            "tempF": "68",
-            "windspeedMiles": "11",
-            "windspeedKmph": "18",
-            "winddirDegree": "186",
-            "winddir16Point": "S",
-            "weatherCode": "353",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0025_light_rain_showers_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Light rain shower"
-              }
-            ],
-            "precipMM": "0.8",
-            "humidity": "72",
-            "visibility": "10",
-            "pressure": "1023",
-            "cloudcover": "62",
-            "HeatIndexC": "20",
-            "HeatIndexF": "68",
-            "DewPointC": "15",
-            "DewPointF": "59",
-            "WindChillC": "20",
-            "WindChillF": "68",
-            "WindGustMiles": "14",
-            "WindGustKmph": "23",
-            "FeelsLikeC": "20",
-            "FeelsLikeF": "68",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "11.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "20",
-            "tempF": "67",
-            "windspeedMiles": "10",
-            "windspeedKmph": "16",
-            "winddirDegree": "185",
-            "winddir16Point": "S",
-            "weatherCode": "119",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Cloudy"
-              }
-            ],
-            "precipMM": "0.1",
-            "humidity": "72",
-            "visibility": "10",
-            "pressure": "1023",
-            "cloudcover": "63",
-            "HeatIndexC": "20",
-            "HeatIndexF": "67",
-            "DewPointC": "15",
-            "DewPointF": "58",
-            "WindChillC": "20",
-            "WindChillF": "67",
-            "WindGustMiles": "13",
-            "WindGustKmph": "21",
-            "FeelsLikeC": "20",
-            "FeelsLikeF": "67",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "130",
-            "swellDir16Point": "SE",
-            "swellPeriod_secs": "11.6",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "20",
-            "tempF": "69",
-            "windspeedMiles": "10",
-            "windspeedKmph": "15",
-            "winddirDegree": "175",
-            "winddir16Point": "S",
-            "weatherCode": "119",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0003_white_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "69",
-            "visibility": "10",
-            "pressure": "1023",
-            "cloudcover": "73",
-            "HeatIndexC": "20",
-            "HeatIndexF": "69",
-            "DewPointC": "15",
-            "DewPointF": "58",
-            "WindChillC": "20",
-            "WindChillF": "69",
-            "WindGustMiles": "23",
-            "WindGustKmph": "37",
-            "FeelsLikeC": "20",
-            "FeelsLikeF": "69",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.6",
-            "swellHeight_ft": "5.2",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "14.5",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "9",
-            "windspeedKmph": "14",
-            "winddirDegree": "165",
-            "winddir16Point": "SSE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.1",
-            "humidity": "60",
-            "visibility": "10",
-            "pressure": "1022",
-            "cloudcover": "60",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "14",
-            "DewPointF": "58",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "10",
-            "WindGustKmph": "15",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.6",
-            "swellHeight_ft": "5.2",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "14.6",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "8",
-            "windspeedKmph": "13",
-            "winddirDegree": "131",
-            "winddir16Point": "SE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "61",
-            "visibility": "10",
-            "pressure": "1020",
-            "cloudcover": "62",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "14",
-            "DewPointF": "58",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "11",
-            "WindGustKmph": "17",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "14.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "9",
-            "windspeedKmph": "14",
-            "winddirDegree": "106",
-            "winddir16Point": "ESE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "59",
-            "visibility": "10",
-            "pressure": "1020",
-            "cloudcover": "11",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "14",
-            "DewPointF": "57",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "12",
-            "WindGustKmph": "20",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.5",
-            "swellHeight_ft": "4.9",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "14.6",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "21",
-            "tempF": "70",
-            "windspeedMiles": "8",
-            "windspeedKmph": "12",
-            "winddirDegree": "70",
-            "winddir16Point": "ENE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "64",
-            "visibility": "10",
-            "pressure": "1021",
-            "cloudcover": "25",
-            "HeatIndexC": "24",
-            "HeatIndexF": "76",
-            "DewPointC": "14",
-            "DewPointF": "57",
-            "WindChillC": "21",
-            "WindChillF": "70",
-            "WindGustMiles": "13",
-            "WindGustKmph": "22",
-            "FeelsLikeC": "21",
-            "FeelsLikeF": "70",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "14.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "21",
-            "tempF": "69",
-            "windspeedMiles": "7",
-            "windspeedKmph": "11",
-            "winddirDegree": "40",
-            "winddir16Point": "NE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "67",
-            "visibility": "10",
-            "pressure": "1022",
-            "cloudcover": "23",
-            "HeatIndexC": "21",
-            "HeatIndexF": "69",
-            "DewPointC": "14",
-            "DewPointF": "58",
-            "WindChillC": "21",
-            "WindChillF": "69",
-            "WindGustMiles": "11",
-            "WindGustKmph": "18",
-            "FeelsLikeC": "21",
-            "FeelsLikeF": "69",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "12.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
-      },
-      {
-        "date": "2018-01-11",
-        "astronomy": [
-          {
-            "sunrise": "05:06 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "01:01 AM",
-            "moonset": "02:20 PM"
-          }
-        ],
-        "maxtempC": "24",
-        "maxtempF": "76",
-        "mintempC": "20",
-        "mintempF": "67",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "5:20 AM",
-                "tideHeight_mt": "0.83",
-                "tideDateTime": "2018-01-11 05:20",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "12:01 PM",
-                "tideHeight_mt": "1.48",
-                "tideDateTime": "2018-01-11 12:01",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "6:37 PM",
-                "tideHeight_mt": "0.82",
-                "tideDateTime": "2018-01-11 18:37",
-                "tide_type": "LOW"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "20",
-            "tempF": "68",
-            "windspeedMiles": "7",
-            "windspeedKmph": "11",
-            "winddirDegree": "17",
-            "winddir16Point": "NNE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "71",
-            "visibility": "10",
-            "pressure": "1020",
-            "cloudcover": "20",
-            "HeatIndexC": "20",
-            "HeatIndexF": "68",
-            "DewPointC": "15",
-            "DewPointF": "58",
-            "WindChillC": "20",
-            "WindChillF": "68",
-            "WindGustMiles": "13",
-            "WindGustKmph": "21",
-            "FeelsLikeC": "20",
-            "FeelsLikeF": "68",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.3",
-            "swellHeight_ft": "4.3",
-            "swellDir": "190",
-            "swellDir16Point": "S",
-            "swellPeriod_secs": "12.2",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "20",
-            "tempF": "67",
-            "windspeedMiles": "7",
-            "windspeedKmph": "11",
-            "winddirDegree": "15",
-            "winddir16Point": "NNE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "73",
-            "visibility": "10",
-            "pressure": "1020",
-            "cloudcover": "5",
-            "HeatIndexC": "20",
-            "HeatIndexF": "67",
-            "DewPointC": "15",
-            "DewPointF": "59",
-            "WindChillC": "20",
-            "WindChillF": "67",
-            "WindGustMiles": "15",
-            "WindGustKmph": "24",
-            "FeelsLikeC": "20",
-            "FeelsLikeF": "67",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.2",
-            "swellHeight_ft": "3.9",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "12.2",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "22",
-            "tempF": "71",
-            "windspeedMiles": "8",
-            "windspeedKmph": "13",
-            "winddirDegree": "33",
-            "winddir16Point": "NNE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "66",
-            "visibility": "10",
-            "pressure": "1020",
-            "cloudcover": "17",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "15",
-            "DewPointF": "59",
-            "WindChillC": "22",
-            "WindChillF": "71",
-            "WindGustMiles": "15",
-            "WindGustKmph": "24",
-            "FeelsLikeC": "22",
-            "FeelsLikeF": "71",
-            "sigHeight_m": "1.7",
-            "swellHeight_m": "1.3",
-            "swellHeight_ft": "4.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "12.1",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "24",
-            "tempF": "74",
-            "windspeedMiles": "13",
-            "windspeedKmph": "20",
-            "winddirDegree": "59",
-            "winddir16Point": "ENE",
-            "weatherCode": "119",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0003_white_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "63",
-            "visibility": "10",
-            "pressure": "1018",
-            "cloudcover": "84",
-            "HeatIndexC": "25",
-            "HeatIndexF": "78",
-            "DewPointC": "16",
-            "DewPointF": "61",
-            "WindChillC": "24",
-            "WindChillF": "74",
-            "WindGustMiles": "19",
-            "WindGustKmph": "30",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.7",
-            "swellHeight_m": "1.3",
-            "swellHeight_ft": "4.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "12.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "24",
-            "tempF": "76",
-            "windspeedMiles": "17",
-            "windspeedKmph": "28",
-            "winddirDegree": "68",
-            "winddir16Point": "ENE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "63",
-            "visibility": "10",
-            "pressure": "1017",
-            "cloudcover": "7",
-            "HeatIndexC": "26",
-            "HeatIndexF": "78",
-            "DewPointC": "17",
-            "DewPointF": "62",
-            "WindChillC": "24",
-            "WindChillF": "76",
-            "WindGustMiles": "22",
-            "WindGustKmph": "35",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "11.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "24",
-            "tempF": "75",
-            "windspeedMiles": "19",
-            "windspeedKmph": "31",
-            "winddirDegree": "66",
-            "winddir16Point": "ENE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "67",
-            "visibility": "10",
-            "pressure": "1017",
-            "cloudcover": "40",
-            "HeatIndexC": "26",
-            "HeatIndexF": "78",
-            "DewPointC": "17",
-            "DewPointF": "63",
-            "WindChillC": "24",
-            "WindChillF": "75",
-            "WindGustMiles": "24",
-            "WindGustKmph": "38",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.5",
-            "swellHeight_m": "0.9",
-            "swellHeight_ft": "3.0",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "11.4",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "16",
-            "windspeedKmph": "26",
-            "winddirDegree": "51",
-            "winddir16Point": "NE",
-            "weatherCode": "122",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Overcast"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "74",
-            "visibility": "10",
-            "pressure": "1019",
-            "cloudcover": "98",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "18",
-            "DewPointF": "64",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "26",
-            "WindGustKmph": "42",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.4",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "11.2",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "22",
-            "tempF": "72",
-            "windspeedMiles": "14",
-            "windspeedKmph": "22",
-            "winddirDegree": "36",
-            "winddir16Point": "NE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "75",
-            "visibility": "10",
-            "pressure": "1019",
-            "cloudcover": "54",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "18",
-            "DewPointF": "64",
-            "WindChillC": "22",
-            "WindChillF": "72",
-            "WindGustMiles": "25",
-            "WindGustKmph": "40",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "76",
-            "sigHeight_m": "1.6",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "11.1",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
-      },
-      {
-        "date": "2018-01-12",
-        "astronomy": [
-          {
-            "sunrise": "05:07 AM",
-            "sunset": "07:02 PM",
-            "moonrise": "01:38 AM",
-            "moonset": "03:14 PM"
-          }
-        ],
-        "maxtempC": "26",
-        "maxtempF": "78",
-        "mintempC": "21",
-        "mintempF": "70",
-        "tides": [
-          {
-            "tide_data": [
-              {
-                "tideTime": "12:41 AM",
-                "tideHeight_mt": "1.36",
-                "tideDateTime": "2018-01-12 00:41",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "6:41 AM",
-                "tideHeight_mt": "0.80",
-                "tideDateTime": "2018-01-12 06:41",
-                "tide_type": "LOW"
-              },
-              {
-                "tideTime": "1:08 PM",
-                "tideHeight_mt": "1.55",
-                "tideDateTime": "2018-01-12 13:08",
-                "tide_type": "HIGH"
-              },
-              {
-                "tideTime": "7:36 PM",
-                "tideHeight_mt": "0.72",
-                "tideDateTime": "2018-01-12 19:36",
-                "tide_type": "LOW"
-              }
-            ]
-          }
-        ],
-        "hourly": [
-          {
-            "time": "0",
-            "tempC": "22",
-            "tempF": "71",
-            "windspeedMiles": "15",
-            "windspeedKmph": "23",
-            "winddirDegree": "25",
-            "winddir16Point": "NNE",
-            "weatherCode": "116",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0004_black_low_cloud.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Partly cloudy"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "77",
-            "visibility": "10",
-            "pressure": "1017",
-            "cloudcover": "31",
-            "HeatIndexC": "25",
-            "HeatIndexF": "76",
-            "DewPointC": "18",
-            "DewPointF": "64",
-            "WindChillC": "22",
-            "WindChillF": "71",
-            "WindGustMiles": "26",
-            "WindGustKmph": "42",
-            "FeelsLikeC": "22",
-            "FeelsLikeF": "71",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "11.1",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "300",
-            "tempC": "21",
-            "tempF": "70",
-            "windspeedMiles": "15",
-            "windspeedKmph": "24",
-            "winddirDegree": "26",
-            "winddir16Point": "NNE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "78",
-            "visibility": "10",
-            "pressure": "1017",
-            "cloudcover": "24",
-            "HeatIndexC": "21",
-            "HeatIndexF": "70",
-            "DewPointC": "17",
-            "DewPointF": "63",
-            "WindChillC": "21",
-            "WindChillF": "70",
-            "WindGustMiles": "21",
-            "WindGustKmph": "34",
-            "FeelsLikeC": "21",
-            "FeelsLikeF": "70",
-            "sigHeight_m": "1.5",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "11.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "600",
-            "tempC": "23",
-            "tempF": "73",
-            "windspeedMiles": "15",
-            "windspeedKmph": "24",
-            "winddirDegree": "37",
-            "winddir16Point": "NE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "68",
-            "visibility": "10",
-            "pressure": "1017",
-            "cloudcover": "17",
-            "HeatIndexC": "25",
-            "HeatIndexF": "77",
-            "DewPointC": "17",
-            "DewPointF": "62",
-            "WindChillC": "23",
-            "WindChillF": "73",
-            "WindGustMiles": "21",
-            "WindGustKmph": "33",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "77",
-            "sigHeight_m": "1.2",
-            "swellHeight_m": "1.0",
-            "swellHeight_ft": "3.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "6.0",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "900",
-            "tempC": "25",
-            "tempF": "78",
-            "windspeedMiles": "17",
-            "windspeedKmph": "28",
-            "winddirDegree": "55",
-            "winddir16Point": "NE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "64",
-            "visibility": "10",
-            "pressure": "1015",
-            "cloudcover": "14",
-            "HeatIndexC": "27",
-            "HeatIndexF": "80",
-            "DewPointC": "18",
-            "DewPointF": "64",
-            "WindChillC": "25",
-            "WindChillF": "78",
-            "WindGustMiles": "26",
-            "WindGustKmph": "41",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "80",
-            "sigHeight_m": "1.5",
-            "swellHeight_m": "1.1",
-            "swellHeight_ft": "3.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "10.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1200",
-            "tempC": "26",
-            "tempF": "78",
-            "windspeedMiles": "21",
-            "windspeedKmph": "33",
-            "winddirDegree": "62",
-            "winddir16Point": "ENE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "67",
-            "visibility": "10",
-            "pressure": "1013",
-            "cloudcover": "3",
-            "HeatIndexC": "27",
-            "HeatIndexF": "81",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "26",
-            "WindChillF": "78",
-            "WindGustMiles": "30",
-            "WindGustKmph": "48",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "81",
-            "sigHeight_m": "1.8",
-            "swellHeight_m": "1.3",
-            "swellHeight_ft": "4.3",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "10.7",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1500",
-            "tempC": "25",
-            "tempF": "77",
-            "windspeedMiles": "20",
-            "windspeedKmph": "33",
-            "winddirDegree": "58",
-            "winddir16Point": "ENE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0001_sunny.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Sunny"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "72",
-            "visibility": "10",
-            "pressure": "1013",
-            "cloudcover": "2",
-            "HeatIndexC": "27",
-            "HeatIndexF": "80",
-            "DewPointC": "19",
-            "DewPointF": "67",
-            "WindChillC": "25",
-            "WindChillF": "77",
-            "WindGustMiles": "33",
-            "WindGustKmph": "53",
-            "FeelsLikeC": "27",
-            "FeelsLikeF": "80",
-            "sigHeight_m": "1.7",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "10.6",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "1800",
-            "tempC": "24",
-            "tempF": "75",
-            "windspeedMiles": "18",
-            "windspeedKmph": "28",
-            "winddirDegree": "47",
-            "winddir16Point": "NE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "76",
-            "visibility": "10",
-            "pressure": "1015",
-            "cloudcover": "2",
-            "HeatIndexC": "26",
-            "HeatIndexF": "78",
-            "DewPointC": "20",
-            "DewPointF": "67",
-            "WindChillC": "24",
-            "WindChillF": "75",
-            "WindGustMiles": "31",
-            "WindGustKmph": "49",
-            "FeelsLikeC": "26",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.9",
-            "swellHeight_m": "1.7",
-            "swellHeight_ft": "5.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "10.5",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          },
-          {
-            "time": "2100",
-            "tempC": "23",
-            "tempF": "74",
-            "windspeedMiles": "16",
-            "windspeedKmph": "26",
-            "winddirDegree": "34",
-            "winddir16Point": "NNE",
-            "weatherCode": "113",
-            "weatherIconUrl": [
-              {
-                "value": "http:\/\/cdn.worldweatheronline.net\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
-              }
-            ],
-            "weatherDesc": [
-              {
-                "value": "Clear"
-              }
-            ],
-            "precipMM": "0.0",
-            "humidity": "77",
-            "visibility": "10",
-            "pressure": "1015",
-            "cloudcover": "6",
-            "HeatIndexC": "25",
-            "HeatIndexF": "78",
-            "DewPointC": "19",
-            "DewPointF": "66",
-            "WindChillC": "23",
-            "WindChillF": "74",
-            "WindGustMiles": "30",
-            "WindGustKmph": "48",
-            "FeelsLikeC": "25",
-            "FeelsLikeF": "78",
-            "sigHeight_m": "1.5",
-            "swellHeight_m": "1.4",
-            "swellHeight_ft": "4.6",
-            "swellDir": "110",
-            "swellDir16Point": "ESE",
-            "swellPeriod_secs": "6.8",
-            "waterTemp_C": "25",
-            "waterTemp_F": "76"
-          }
-        ]
+    },
+    "wind": {
+      "speed": 4,
+      "direction": 180,
+      "compassDirection": "N",
+      "chill": 23,
+      "gusts": 5,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1011,
+      "temperature": 22,
+      "weather": "10",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515283200-1.gif",
+      "period": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515283200-2.gif",
+      "wind": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515283200-4.gif",
+      "pressure": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515283200-3.gif",
+      "sst": "https:\/\/hist-1.msw.ms\/sst\/750\/4-1515283200-10.gif"
+    }
+  },
+  {
+    "timestamp": 1515294000,
+    "localTimestamp": 1515294000,
+    "issueTimestamp": 1515283200,
+    "fadedRating": 0,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.49,
+      "absMaxBreakingHeight": 3.89,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 3.5,
+          "period": 9,
+          "direction": 272.81,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3,
+          "period": 9,
+          "direction": 270.96,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.3,
+          "period": 11,
+          "direction": 18.84,
+          "compassDirection": "SSW"
+        }
       }
-    ]
+    },
+    "wind": {
+      "speed": 5,
+      "direction": 187,
+      "compassDirection": "N",
+      "chill": 23,
+      "gusts": 6,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1010,
+      "temperature": 22,
+      "weather": "10",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515294000-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515294000-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515294000-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515294000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515304800,
+    "localTimestamp": 1515304800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.45,
+      "absMaxBreakingHeight": 3.83,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 3.5,
+          "period": 9,
+          "direction": 272.93,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3,
+          "period": 9,
+          "direction": 270.35,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.2,
+          "period": 11,
+          "direction": 18.1,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 6,
+      "direction": 225,
+      "compassDirection": "NE",
+      "chill": 25,
+      "gusts": 7,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1010,
+      "temperature": 24,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515304800-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515304800-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515304800-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515304800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515315600,
+    "localTimestamp": 1515315600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.46,
+      "absMaxBreakingHeight": 3.84,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 3.5,
+          "period": 9,
+          "direction": 272.83,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3,
+          "period": 9,
+          "direction": 269.16,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.2,
+          "period": 10,
+          "direction": 17.56,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 11,
+      "direction": 249,
+      "compassDirection": "ENE",
+      "chill": 26,
+      "gusts": 10,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1008,
+      "temperature": 26,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515315600-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515315600-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515315600-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515315600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515326400,
+    "localTimestamp": 1515326400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.46,
+      "absMaxBreakingHeight": 3.85,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 3.5,
+          "period": 9,
+          "direction": 271.7,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3,
+          "period": 9,
+          "direction": 268.41,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.3,
+          "period": 3,
+          "direction": 254.78,
+          "compassDirection": "ENE"
+        },
+        "tertiary": {
+          "height": 1.1,
+          "period": 10,
+          "direction": 16.79,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 15,
+      "direction": 246,
+      "compassDirection": "ENE",
+      "chill": 26,
+      "gusts": 16,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1007,
+      "temperature": 26,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515326400-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515326400-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515326400-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515326400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515337200,
+    "localTimestamp": 1515337200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.48,
+      "absMaxBreakingHeight": 3.87,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 4,
+          "period": 9,
+          "direction": 272.39,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3,
+          "period": 9,
+          "direction": 266.87,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 2,
+          "period": 4,
+          "direction": 251.91,
+          "compassDirection": "ENE"
+        },
+        "tertiary": {
+          "height": 1.4,
+          "period": 10,
+          "direction": 11.23,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 16,
+      "direction": 234,
+      "compassDirection": "NE",
+      "chill": 24,
+      "gusts": 20,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1006,
+      "temperature": 25,
+      "weather": "19",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515337200-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515337200-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515337200-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515337200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515348000,
+    "localTimestamp": 1515348000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.51,
+      "absMaxBreakingHeight": 3.93,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 4,
+          "period": 9,
+          "direction": 270.41,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3,
+          "period": 9,
+          "direction": 265.21,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 2.5,
+          "period": 4,
+          "direction": 256.08,
+          "compassDirection": "ENE"
+        },
+        "tertiary": {
+          "height": 1.3,
+          "period": 10,
+          "direction": 9.65,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 12,
+      "direction": 226,
+      "compassDirection": "NE",
+      "chill": 25,
+      "gusts": 18,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1007,
+      "temperature": 24,
+      "weather": "19",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515348000-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515348000-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515348000-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515348000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515358800,
+    "localTimestamp": 1515358800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.94,
+      "absMaxBreakingHeight": 4.59,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 4,
+          "period": 9,
+          "direction": 269.35,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 4,
+          "period": 9,
+          "direction": 261.91,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1,
+          "period": 10,
+          "direction": 14.81,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 11,
+      "direction": 225,
+      "compassDirection": "NE",
+      "chill": 25,
+      "gusts": 17,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1008,
+      "temperature": 24,
+      "weather": "10",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515358800-1.gif",
+      "period": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515358800-2.gif",
+      "wind": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515358800-4.gif",
+      "pressure": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515358800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515369600,
+    "localTimestamp": 1515369600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.63,
+      "absMaxBreakingHeight": 4.12,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 4.5,
+          "period": 9,
+          "direction": 268.68,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 9,
+          "direction": 263.55,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 2.5,
+          "period": 5,
+          "direction": 255.04,
+          "compassDirection": "ENE"
+        }
+      }
+    },
+    "wind": {
+      "speed": 9,
+      "direction": 225,
+      "compassDirection": "NE",
+      "chill": 25,
+      "gusts": 13,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1007,
+      "temperature": 24,
+      "weather": "10",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515369600-1.gif",
+      "period": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515369600-2.gif",
+      "wind": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515369600-4.gif",
+      "pressure": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515369600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515380400,
+    "localTimestamp": 1515380400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 2.73,
+      "absMaxBreakingHeight": 4.27,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 4.5,
+          "period": 10,
+          "direction": 267.94,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 10,
+          "direction": 263.25,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 2.5,
+          "period": 5,
+          "direction": 253.05,
+          "compassDirection": "ENE"
+        }
+      }
+    },
+    "wind": {
+      "speed": 5,
+      "direction": 218,
+      "compassDirection": "NE",
+      "chill": 26,
+      "gusts": 7,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1007,
+      "temperature": 24,
+      "weather": "11",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515380400-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515380400-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515380400-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515380400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515391200,
+    "localTimestamp": 1515391200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.17,
+      "absMaxBreakingHeight": 4.95,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 4.5,
+          "period": 10,
+          "direction": 267.08,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 4.5,
+          "period": 10,
+          "direction": 260.05,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.1,
+          "period": 7,
+          "direction": 348.57,
+          "compassDirection": "SSE"
+        }
+      }
+    },
+    "wind": {
+      "speed": 6,
+      "direction": 229,
+      "compassDirection": "NE",
+      "chill": 27,
+      "gusts": 6,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1008,
+      "temperature": 25,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515391200-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515391200-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515391200-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515391200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515402000,
+    "localTimestamp": 1515402000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 3.17,
+      "absMaxBreakingHeight": 4.95,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 4.5,
+          "period": 10,
+          "direction": 266.44,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 4,
+          "period": 10,
+          "direction": 260.48,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.2,
+          "period": 7,
+          "direction": 345.98,
+          "compassDirection": "SSE"
+        }
+      }
+    },
+    "wind": {
+      "speed": 8,
+      "direction": 352,
+      "compassDirection": "S",
+      "chill": 28,
+      "gusts": 11,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1007,
+      "temperature": 27,
+      "weather": "19",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515402000-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515402000-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515402000-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515402000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515412800,
+    "localTimestamp": 1515412800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 3.1,
+      "absMaxBreakingHeight": 4.85,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 4.5,
+          "period": 10,
+          "direction": 263.69,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 4,
+          "period": 10,
+          "direction": 260.53,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 1.8,
+          "period": 7,
+          "direction": 349.38,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 0.8,
+          "period": 9,
+          "direction": 11.97,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 17,
+      "direction": 8,
+      "compassDirection": "S",
+      "chill": 25,
+      "gusts": 22,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1008,
+      "temperature": 26,
+      "weather": "9",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515412800-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515412800-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515412800-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515412800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515423600,
+    "localTimestamp": 1515423600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.95,
+      "absMaxBreakingHeight": 4.61,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 6,
+          "period": 10,
+          "direction": 264.79,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 4,
+          "period": 10,
+          "direction": 261.05,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4.5,
+          "period": 5,
+          "direction": 10.02,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 27,
+      "direction": 24,
+      "compassDirection": "SSW",
+      "chill": 19,
+      "gusts": 36,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1011,
+      "temperature": 24,
+      "weather": "3",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515423600-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515423600-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515423600-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515423600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515434400,
+    "localTimestamp": 1515434400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.77,
+      "absMaxBreakingHeight": 4.34,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 7.5,
+          "period": 6,
+          "direction": 2.05,
+          "compassDirection": "S"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 10,
+          "direction": 262.02,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 6.5,
+          "period": 6,
+          "direction": 9.24,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 28,
+      "direction": 19,
+      "compassDirection": "SSW",
+      "chill": 18,
+      "gusts": 36,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1014,
+      "temperature": 23,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515434400-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515434400-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515434400-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515434400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515445200,
+    "localTimestamp": 1515445200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.68,
+      "absMaxBreakingHeight": 4.19,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 7.5,
+          "period": 7,
+          "direction": 358.18,
+          "compassDirection": "S"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 10,
+          "direction": 262.17,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 6.5,
+          "period": 7,
+          "direction": 3.62,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 0.9,
+          "period": 12,
+          "direction": 25.94,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 20,
+      "direction": 19,
+      "compassDirection": "SSW",
+      "chill": 19,
+      "gusts": 27,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1016,
+      "temperature": 23,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515445200-1.gif",
+      "period": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515445200-2.gif",
+      "wind": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515445200-4.gif",
+      "pressure": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515445200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515456000,
+    "localTimestamp": 1515456000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.67,
+      "absMaxBreakingHeight": 4.17,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 7.5,
+          "period": 7,
+          "direction": 357.28,
+          "compassDirection": "S"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 10,
+          "direction": 262.27,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 6.5,
+          "period": 7,
+          "direction": 5.71,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 1,
+          "period": 12,
+          "direction": 25.73,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 24,
+      "direction": 25,
+      "compassDirection": "SSW",
+      "chill": 16,
+      "gusts": 31,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1017,
+      "temperature": 22,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515456000-1.gif",
+      "period": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515456000-2.gif",
+      "wind": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515456000-4.gif",
+      "pressure": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515456000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515466800,
+    "localTimestamp": 1515466800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.72,
+      "absMaxBreakingHeight": 4.25,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 7.5,
+          "period": 7,
+          "direction": 2.44,
+          "compassDirection": "S"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 10,
+          "direction": 262.13,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 6.5,
+          "period": 7,
+          "direction": 9.27,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 1.4,
+          "period": 12,
+          "direction": 24.88,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 20,
+      "direction": 36,
+      "compassDirection": "SW",
+      "chill": 16,
+      "gusts": 27,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1018,
+      "temperature": 21,
+      "weather": "20",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515466800-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515466800-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515466800-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515466800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515477600,
+    "localTimestamp": 1515477600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 1,
+    "swell": {
+      "absMinBreakingHeight": 2.92,
+      "absMaxBreakingHeight": 4.57,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 7.5,
+          "period": 7,
+          "direction": 1.35,
+          "compassDirection": "S"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 12,
+          "direction": 262.21,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 6,
+          "period": 7,
+          "direction": 8.91,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 2,
+          "period": 12,
+          "direction": 22.57,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 17,
+      "direction": 41,
+      "compassDirection": "SW",
+      "chill": 16,
+      "gusts": 23,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1019,
+      "temperature": 21,
+      "weather": "20",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515477600-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515477600-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515477600-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515477600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515488400,
+    "localTimestamp": 1515488400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 2.93,
+      "absMaxBreakingHeight": 4.58,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 7,
+          "period": 12,
+          "direction": 304.24,
+          "compassDirection": "SE"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 12,
+          "direction": 262.32,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 5.5,
+          "period": 7,
+          "direction": 5.72,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 3,
+          "period": 12,
+          "direction": 20.84,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 16,
+      "direction": 25,
+      "compassDirection": "SSW",
+      "chill": 19,
+      "gusts": 19,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1020,
+      "temperature": 23,
+      "weather": "2",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515488400-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515488400-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515488400-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515488400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515499200,
+    "localTimestamp": 1515499200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 3.02,
+      "absMaxBreakingHeight": 4.72,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 7,
+          "period": 12,
+          "direction": 308.53,
+          "compassDirection": "SE"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 11,
+          "direction": 262.61,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 5.5,
+          "period": 7,
+          "direction": 2.23,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 3,
+          "period": 12,
+          "direction": 19.76,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 19,
+      "direction": 6,
+      "compassDirection": "S",
+      "chill": 19,
+      "gusts": 21,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1018,
+      "temperature": 23,
+      "weather": "2",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515499200-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515499200-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515499200-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515499200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515510000,
+    "localTimestamp": 1515510000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 3,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 3.12,
+      "absMaxBreakingHeight": 4.88,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 7,
+          "period": 12,
+          "direction": 305.98,
+          "compassDirection": "SE"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 12,
+          "direction": 262.92,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 5,
+          "period": 7,
+          "direction": 357.62,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 3,
+          "period": 12,
+          "direction": 19.62,
+          "compassDirection": "SSW"
+        }
+      }
+    },
+    "wind": {
+      "speed": 16,
+      "direction": 359,
+      "compassDirection": "S",
+      "chill": 19,
+      "gusts": 19,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1019,
+      "temperature": 22,
+      "weather": "3",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515510000-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515510000-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515510000-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515510000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515520800,
+    "localTimestamp": 1515520800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.26,
+      "absMaxBreakingHeight": 5.1,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 12,
+          "direction": 298.61,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4,
+          "period": 12,
+          "direction": 263.3,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 5.5,
+          "period": 12,
+          "direction": 2.21,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 13,
+      "direction": 358,
+      "compassDirection": "S",
+      "chill": 18,
+      "gusts": 17,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1021,
+      "temperature": 21,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515520800-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515520800-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515520800-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515520800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515531600,
+    "localTimestamp": 1515531600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.37,
+      "absMaxBreakingHeight": 5.26,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 12,
+          "direction": 291.98,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4,
+          "period": 12,
+          "direction": 263.58,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 5.5,
+          "period": 12,
+          "direction": 359.22,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 13,
+      "direction": 353,
+      "compassDirection": "S",
+      "chill": 18,
+      "gusts": 17,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1023,
+      "temperature": 21,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515531600-1.gif",
+      "period": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515531600-2.gif",
+      "wind": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515531600-4.gif",
+      "pressure": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515531600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515542400,
+    "localTimestamp": 1515542400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.48,
+      "absMaxBreakingHeight": 5.44,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 12,
+          "direction": 286.86,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4,
+          "period": 12,
+          "direction": 264.16,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 5,
+          "period": 12,
+          "direction": 357.47,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 9,
+      "direction": 5,
+      "compassDirection": "S",
+      "chill": 19,
+      "gusts": 12,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1021,
+      "temperature": 21,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515542400-1.gif",
+      "period": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515542400-2.gif",
+      "wind": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515542400-4.gif",
+      "pressure": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515542400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515553200,
+    "localTimestamp": 1515553200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.57,
+      "absMaxBreakingHeight": 5.58,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 12,
+          "direction": 283.61,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4,
+          "period": 12,
+          "direction": 264.9,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4.5,
+          "period": 12,
+          "direction": 355.1,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 9,
+      "direction": 14,
+      "compassDirection": "SSW",
+      "chill": 19,
+      "gusts": 11,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1022,
+      "temperature": 20,
+      "weather": "12",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515553200-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515553200-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515553200-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515553200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515564000,
+    "localTimestamp": 1515564000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.68,
+      "absMaxBreakingHeight": 5.75,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 12,
+          "direction": 281.25,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4.5,
+          "period": 12,
+          "direction": 265.69,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4,
+          "period": 11,
+          "direction": 353.49,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 9,
+      "direction": 355,
+      "compassDirection": "S",
+      "chill": 19,
+      "gusts": 12,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1024,
+      "temperature": 21,
+      "weather": "3",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515564000-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515564000-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515564000-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515564000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515574800,
+    "localTimestamp": 1515574800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 3,
+    "swell": {
+      "absMinBreakingHeight": 3.83,
+      "absMaxBreakingHeight": 5.98,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 13,
+          "direction": 279.32,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 4.5,
+          "period": 13,
+          "direction": 266.35,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4.5,
+          "period": 15,
+          "direction": 358.43,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 7,
+      "direction": 355,
+      "compassDirection": "S",
+      "chill": 20,
+      "gusts": 9,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1023,
+      "temperature": 21,
+      "weather": "3",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515574800-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515574800-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515574800-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515574800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515585600,
+    "localTimestamp": 1515585600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 4,
+    "swell": {
+      "absMinBreakingHeight": 4.01,
+      "absMaxBreakingHeight": 6.27,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 13,
+          "direction": 282.24,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4.5,
+          "period": 13,
+          "direction": 267,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4.5,
+          "period": 15,
+          "direction": 359.87,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 4,
+      "direction": 311,
+      "compassDirection": "SE",
+      "chill": 22,
+      "gusts": 5,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1022,
+      "temperature": 22,
+      "weather": "20",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515585600-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515585600-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515585600-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515585600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515596400,
+    "localTimestamp": 1515596400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 0,
+    "solidRating": 4,
+    "swell": {
+      "absMinBreakingHeight": 4.14,
+      "absMaxBreakingHeight": 6.48,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 13,
+          "direction": 281.09,
+          "compassDirection": "E"
+        },
+        "primary": {
+          "height": 5,
+          "period": 13,
+          "direction": 267.65,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4.5,
+          "period": 15,
+          "direction": 1.28,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 6,
+      "direction": 282,
+      "compassDirection": "ESE",
+      "chill": 22,
+      "gusts": 6,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1021,
+      "temperature": 22,
+      "weather": "2",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515596400-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515596400-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515596400-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515596400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515607200,
+    "localTimestamp": 1515607200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 3,
+    "swell": {
+      "absMinBreakingHeight": 4.2,
+      "absMaxBreakingHeight": 6.56,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 7,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 13,
+          "direction": 283.69,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 5,
+          "period": 13,
+          "direction": 268.22,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4.5,
+          "period": 14,
+          "direction": 2.2,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 6,
+      "direction": 242,
+      "compassDirection": "ENE",
+      "chill": 21,
+      "gusts": 8,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1023,
+      "temperature": 21,
+      "weather": "11",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515607200-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515607200-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515607200-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515607200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515618000,
+    "localTimestamp": 1515618000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 3,
+    "swell": {
+      "absMinBreakingHeight": 4.14,
+      "absMaxBreakingHeight": 6.47,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6.5,
+          "period": 13,
+          "direction": 285.96,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 5,
+          "period": 13,
+          "direction": 268.69,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4,
+          "period": 13,
+          "direction": 2.66,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 8,
+      "direction": 228,
+      "compassDirection": "NE",
+      "chill": 20,
+      "gusts": 10,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1023,
+      "temperature": 21,
+      "weather": "20",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515618000-1.gif",
+      "period": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515618000-2.gif",
+      "wind": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515618000-4.gif",
+      "pressure": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515618000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515628800,
+    "localTimestamp": 1515628800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.96,
+      "absMaxBreakingHeight": 6.18,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 6,
+          "period": 13,
+          "direction": 287.07,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4.5,
+          "period": 13,
+          "direction": 269.14,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4,
+          "period": 12,
+          "direction": 2.28,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 9,
+      "direction": 223,
+      "compassDirection": "NE",
+      "chill": 20,
+      "gusts": 12,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1021,
+      "temperature": 21,
+      "weather": "19",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515628800-1.gif",
+      "period": "https:\/\/hist-1.msw.ms\/wave\/750\/4-1515628800-2.gif",
+      "wind": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515628800-4.gif",
+      "pressure": "https:\/\/hist-1.msw.ms\/gfs\/750\/4-1515628800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515639600,
+    "localTimestamp": 1515639600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 1,
+    "solidRating": 2,
+    "swell": {
+      "absMinBreakingHeight": 3.7,
+      "absMaxBreakingHeight": 5.79,
+      "unit": "ft",
+      "minBreakingHeight": 4,
+      "maxBreakingHeight": 6,
+      "components": {
+        "combined": {
+          "height": 5.5,
+          "period": 12,
+          "direction": 288.6,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4.5,
+          "period": 12,
+          "direction": 269.66,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4,
+          "period": 12,
+          "direction": 0.47000000000003,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 12,
+      "direction": 217,
+      "compassDirection": "NE",
+      "chill": 19,
+      "gusts": 15,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1021,
+      "temperature": 21,
+      "weather": "10",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515639600-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515639600-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515639600-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515639600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515650400,
+    "localTimestamp": 1515650400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 3,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 3.38,
+      "absMaxBreakingHeight": 5.28,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 5.5,
+          "period": 12,
+          "direction": 294.69,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 4,
+          "period": 12,
+          "direction": 270.12,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 3.5,
+          "period": 12,
+          "direction": 354.47,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 14,
+      "direction": 215,
+      "compassDirection": "NE",
+      "chill": 20,
+      "gusts": 17,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1021,
+      "temperature": 22,
+      "weather": "2",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515650400-1.gif",
+      "period": "https:\/\/hist-2.msw.ms\/wave\/750\/4-1515650400-2.gif",
+      "wind": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515650400-4.gif",
+      "pressure": "https:\/\/hist-2.msw.ms\/gfs\/750\/4-1515650400-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515661200,
+    "localTimestamp": 1515661200,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 3,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 3.08,
+      "absMaxBreakingHeight": 4.81,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 5,
+      "components": {
+        "combined": {
+          "height": 5,
+          "period": 12,
+          "direction": 296.33,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 3.5,
+          "period": 12,
+          "direction": 270.77,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 3,
+          "period": 12,
+          "direction": 7.27,
+          "compassDirection": "S"
+        },
+        "tertiary": {
+          "height": 2.5,
+          "period": 4,
+          "direction": 251.21,
+          "compassDirection": "ENE"
+        }
+      }
+    },
+    "wind": {
+      "speed": 18,
+      "direction": 225,
+      "compassDirection": "NE",
+      "chill": 20,
+      "gusts": 20,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1019,
+      "temperature": 24,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515661200-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515661200-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515661200-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515661200-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515672000,
+    "localTimestamp": 1515672000,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.82,
+      "absMaxBreakingHeight": 4.4,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 5,
+          "period": 11,
+          "direction": 298.88,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 3,
+          "period": 12,
+          "direction": 271.18,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 3,
+          "period": 4,
+          "direction": 253.23,
+          "compassDirection": "ENE"
+        },
+        "tertiary": {
+          "height": 3,
+          "period": 11,
+          "direction": 7.92,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 19,
+      "direction": 232,
+      "compassDirection": "NE",
+      "chill": 20,
+      "gusts": 21,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1016,
+      "temperature": 24,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515672000-1.gif",
+      "period": "https:\/\/hist-3.msw.ms\/wave\/750\/4-1515672000-2.gif",
+      "wind": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515672000-4.gif",
+      "pressure": "https:\/\/hist-3.msw.ms\/gfs\/750\/4-1515672000-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515682800,
+    "localTimestamp": 1515682800,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.59,
+      "absMaxBreakingHeight": 4.05,
+      "unit": "ft",
+      "minBreakingHeight": 3,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 5,
+          "period": 11,
+          "direction": 301.29,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 3,
+          "period": 11,
+          "direction": 271.8,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 3.5,
+          "period": 5,
+          "direction": 252.76,
+          "compassDirection": "ENE"
+        },
+        "tertiary": {
+          "height": 2.5,
+          "period": 11,
+          "direction": 8.68,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 21,
+      "direction": 227,
+      "compassDirection": "NE",
+      "chill": 19,
+      "gusts": 24,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1016,
+      "temperature": 24,
+      "weather": "1",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515682800-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515682800-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515682800-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515682800-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515693600,
+    "localTimestamp": 1515693600,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.38,
+      "absMaxBreakingHeight": 3.72,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 5.5,
+          "period": 11,
+          "direction": 301.55,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 2.5,
+          "period": 11,
+          "direction": 272.38,
+          "compassDirection": "E"
+        },
+        "secondary": {
+          "height": 4,
+          "period": 5,
+          "direction": 251.47,
+          "compassDirection": "ENE"
+        },
+        "tertiary": {
+          "height": 2.5,
+          "period": 11,
+          "direction": 8.09,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 20,
+      "direction": 217,
+      "compassDirection": "NE",
+      "chill": 19,
+      "gusts": 27,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1018,
+      "temperature": 23,
+      "weather": "10",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515693600-1.gif",
+      "period": "https:\/\/hist-4.msw.ms\/wave\/750\/4-1515693600-2.gif",
+      "wind": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515693600-4.gif",
+      "pressure": "https:\/\/hist-4.msw.ms\/gfs\/750\/4-1515693600-3.gif"
+    }
+  },
+  {
+    "timestamp": 1515704400,
+    "localTimestamp": 1515704400,
+    "issueTimestamp": 1515304800,
+    "fadedRating": 2,
+    "solidRating": 0,
+    "swell": {
+      "absMinBreakingHeight": 2.48,
+      "absMaxBreakingHeight": 3.87,
+      "unit": "ft",
+      "minBreakingHeight": 2,
+      "maxBreakingHeight": 4,
+      "components": {
+        "combined": {
+          "height": 6,
+          "period": 11,
+          "direction": 301.13,
+          "compassDirection": "ESE"
+        },
+        "primary": {
+          "height": 5,
+          "period": 6,
+          "direction": 246.65,
+          "compassDirection": "ENE"
+        },
+        "secondary": {
+          "height": 2.5,
+          "period": 11,
+          "direction": 272.63,
+          "compassDirection": "E"
+        },
+        "tertiary": {
+          "height": 2,
+          "period": 11,
+          "direction": 7.92,
+          "compassDirection": "S"
+        }
+      }
+    },
+    "wind": {
+      "speed": 23,
+      "direction": 210,
+      "compassDirection": "NNE",
+      "chill": 18,
+      "gusts": 31,
+      "unit": "mph"
+    },
+    "condition": {
+      "pressure": 1017,
+      "temperature": 23,
+      "weather": "11",
+      "unitPressure": "mb",
+      "unit": "c"
+    },
+    "charts": {
+      "swell": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515704400-1.gif",
+      "period": "https:\/\/hist-5.msw.ms\/wave\/750\/4-1515704400-2.gif",
+      "wind": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515704400-4.gif",
+      "pressure": "https:\/\/hist-5.msw.ms\/gfs\/750\/4-1515704400-3.gif"
+    }
   }
-}
+]

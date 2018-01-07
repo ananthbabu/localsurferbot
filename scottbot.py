@@ -1,58 +1,69 @@
 import requests, json
 import datetime
 
-date = datetime.datetime.today()
-the_date = date.date()
+# date = datetime.datetime.today()
+# the_date = date.date()
 # print(today_date)
 
 with open("data.json", 'r') as weather_data:
     my_data = json.load(weather_data)
 
-    tmrw_data = my_data['data']['weather'][2]
-    tmrwdate = tmrw_data['date']
 
-    nineamdata = tmrw_data['hourly'][2]
-    timespot = nineamdata['time']
-    swellsize = nineamdata['swellHeight_ft']
-    swellperiod = nineamdata['swellPeriod_secs']
-    winddirect = nineamdata['winddir16Point']
-    windspeed = nineamdata['windspeedKmph']
-    tempnine = nineamdata['tempC']
-    watertemp = nineamdata["waterTemp_C"]
+    convertdate = my_data[10]["localTimestamp"]
+    dateeightamtmrw = (datetime.datetime.fromtimestamp(
+        int(convertdate)
+    ).strftime('%Y-%m-%d %H:%M'))
+    # print(dateeightamtmrw)
 
-    # print(winddirect)
+    swelldata = my_data[10]["swell"]
+    # print(thedata)
 
-    print("if you go surf at: " + timespot + " on " + tmrwdate)
+    maxwavesize = swelldata["maxBreakingHeight"]
+    minwavesize = swelldata["minBreakingHeight"]
+    avgwavesize = (maxwavesize + minwavesize) / 2
+    # print("average wave size is", avgwavesize)
+    swellperiod = swelldata["components"]["combined"]["period"]
+    # print(swellperiod)
+    swelldir = swelldata["components"]["combined"]["compassDirection"]
+    # print(swelldir)
+    winddata = my_data[10]["wind"]
+    # print(winddata)
+    windspeed = winddata["speed"]
+    # print(windspeed)
+    kmhwind = windspeed * 1.609344
+    # print(kmhwind, "kmh")
+    winddirect = winddata["compassDirection"]
+    # winddirect = "SW"
+    # print(winddir)
+    temp = my_data[10]["condition"]["temperature"]
+    # print(temp)
+    print("if you go surf tomorrow morning", dateeightamtmrw )
     print("expect:")
-
     if winddirect == "SSW" or winddirect == "SW" or winddirect == "WSW" or winddirect == "W" or winddirect == "WNW" or winddirect == "NW" or winddirect == "NNW":
-        print("good wind - " + winddirect)
+        print("An Offshore Wind  - " + winddirect)
     else:
-        print("shit wind - " + winddirect)
-
-    if tempnine < "20" or watertemp < "23":
-        print("wear wetsuit")
+        print("A Kak Onshore - " + winddirect)
+    #
+    if temp < 23:
+        print("Wear Wetsuit")
 
     else:
-        print("water is " + watertemp + "c")
-        print("Air temp is " + tempnine + "c")
-        print("wear boardies")
+        print("Weather is quite warm ", temp,"c")
+        print("Wear Boardies")
 
-    if swellsize < "3.5":
-        print("waves should be fun at around " + swellsize + " ft")
+    if avgwavesize < 3.5:
+        print("waves should be fun at around ", avgwavesize,"ft")
 
-    elif swellsize < "2":
+    elif avgwavesize < 2:
         print("Not much swell around")
 
-    elif swellsize < "6":
-        print("Some swell around at " + swellsize + " ft")
+    elif avgwavesize < 6:
+        print("Some swell around at ",avgwavesize,"ft")
 
-    elif swellsize > "6.1":
+    elif avgwavesize > 6.1:
         print("Gonna be pretty big")
 
-    elif swellsize > "10":
+    elif avgwavesize > 10:
         print("Gonna be HUGE!!")
-
-
 
     # print(nineamdata)
