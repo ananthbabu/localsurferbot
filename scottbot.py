@@ -2,7 +2,7 @@ import requests, json
 import datetime
 
 #
-# url = 'http://api.worldweatheronline.com/premium/v1/marine.ashx?key=e67e209a3eba498ca11125527180601&q=-30.278797,%2030.762171&format=json&tide=yes'
+# url = ''
 #
 # r = requests.get(url)
 #
