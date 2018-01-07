@@ -16,7 +16,7 @@ import datetime
 
 get_time = datetime.datetime.today()
 today_date = get_time.date()
-print(today_date)
+# print(today_date)
 
 with open('data.json') as json_data:
     d = json.load(json_data)
@@ -27,7 +27,8 @@ with open('data.json') as json_data:
 
 for item in loaded:
     for a in item['date']:
-        for b in item['astronomy']:
-            print(b['sunrise'], item['date'])
-
-
+        for b in item['tides']:
+            for c in b['tide_data']:
+                tide_date = item['date']
+                tide_type = c['tide_type']
+                tide_time = c['tideTime']
