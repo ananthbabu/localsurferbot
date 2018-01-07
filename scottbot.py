@@ -1,37 +1,39 @@
 import requests, json
 import datetime
 
-#
-# url = ''
-#
-# r = requests.get(url)
-#
-# raw = r.json()
-#
-# data = json.dumps(raw['data']['weather'])
-
-# loaded = json.loads(data)
-
-# print(loaded)
-
-get_time = datetime.datetime.today()
-today_date = get_time.date()
+date = datetime.datetime.today()
+the_date = date.date()
 # print(today_date)
 
-with open('data.json') as json_data:
-    d = json.load(json_data)
+with open("data.json", 'r') as weather_data:
+    my_data = json.load(weather_data)
 
-    data = json.dumps(d['data']['weather'])
+    tmrw_data = my_data['data']['weather'][2]
+    tmrwdate = tmrw_data['date']
 
-    loaded = json.loads(data)
+    nineamdata = tmrw_data['hourly'][5]
+    timespot = nineamdata['time']
+    swellsize = nineamdata['swellHeight_ft']
+    swellperiod = nineamdata['swellPeriod_secs']
+    winddirect = nineamdata['winddir16Point']
+    windspeed = nineamdata['windspeedKmph']
+    tempnine = nineamdata['tempC']
+    watertemp = "waterTemp_C"
 
-for item in loaded:
-    for a in item['date']:
-        for b in item['tides']:
-            for c in b['tide_data']:
-                tide_date = item['date']
-                tide_type = c['tide_type']
-                tide_time = c['tideTime']
-                print(tide_date, tide_type, tide_time)
+    # print(winddirect)
 
-# read today only date
+    print("if you go surf at: " + timespot + " on " + tmrwdate)
+    print("expect:")
+
+    if winddirect == "SSW" or winddirect == "SW" or winddirect == "WSW" or winddirect == "W" or winddirect == "WNW" or winddirect == "NW" or winddirect == "NNW":
+        print("good wind - " + winddirect)
+    else:
+        print("shit wind - " + winddirect)
+
+    if tempnine < "20" or watertemp < "23":
+        print("wear wetsuit")
+
+    else:
+        print("wear boardies")
+
+    # print(nineamdata)
