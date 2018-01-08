@@ -6,7 +6,7 @@ from telegram.ext.dispatcher import run_async
 import datetime
 import json
 
-teltoken = "536741613:AAEWapwGJEM3zmqBW6qS05RgOnCtnkee1Bw"
+teltoken = ""
 
 bot = telegram.Bot(token=teltoken)
 updater = Updater(token=teltoken)
