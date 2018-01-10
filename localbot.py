@@ -6,7 +6,7 @@ from telegram.ext.dispatcher import run_async
 import datetime
 import json
 
-teltoken = ""
+teltoken = "536741613:AAEWapwGJEM3zmqBW6qS05RgOnCtnkee1Bw"
 
 bot = telegram.Bot(token=teltoken)
 updater = Updater(token=teltoken)
@@ -17,8 +17,8 @@ def start(bot, update):
     send = lambda x: bot.sendMessage(chat_id=update.message.chat_id, text=x)
 
     send("Howzit bru 😎 ")
-    send("Tomorrow's forecast will be sent every night at 8pm")
-    send("For an on demand report, send me /update and I will be right back at you")
+    send("For tomorrow's 8am report, send /check")
+    send("For today's report, say /today")
     send("cheers!")
 
 
@@ -61,31 +61,31 @@ def check(bot, update):
     # send("if you go surf tomorrow morning", dateeightamtmrw)
     # print("expect:")
     if winddirect == "SSW" or winddirect == "SW" or winddirect == "WSW" or winddirect == "W" or winddirect == "WNW" or winddirect == "NW" or winddirect == "NNW":
-        offshore = ("An Offshore Wind  - " + winddirect)
+        offshore = ("Offshore Wind  - " + winddirect)
     else:
-        offshore = ("A Kak Onshore - " + winddirect)
+        offshore = ("Onshore vibes 💩 - " + winddirect)
     #
     if temp < 23:
-        wetsuit = ("Wear your wetsuit, it will be chilly")
+        wetsuit = ("Wear your wetsuit, it will be chilly ☃️")
 
     else:
-        wetsuit = ("Nice and warm. ")
-        wetsuit = ("Wear Boardies")
+        wetsuit = ("Nice and warm. 👙 ")
+        wetsuit = ("Wear Boardies 🌴")
 
     if avgwavesize < 3.5:
-        waves = ("There's a little bit of swell.")
+        waves = ("There's a little bit of swell. 👀")
 
     elif avgwavesize < 2:
-        waves = ("Not much swell around.")
+        waves = ("Not much swell around. 🏝")
 
     elif avgwavesize < 6:
-        waves = ("There's some swell. Go surf.")
+        waves = ("There's some swell. 🏄🏼‍♂️")
 
     elif avgwavesize > 6.1:
-        waves = ("Gonna be pretty big")
+        waves = ("Gonna be pretty big 😲")
 
     elif avgwavesize > 10:
-        waves = ("Gonna be HUGE!!")
+        waves = ("Gonna be HUGE!! 🌊")
 
     send("Forecast for tomorrow at 8AM")
     send(dateeightamtmrw)
@@ -94,6 +94,76 @@ def check(bot, update):
     send(wetsuit)
     send(waves)
 
+def today(bot, update):
+
+    send = lambda x: bot.sendMessage(chat_id=update.message.chat_id, text=x)
+
+    url = 'https://magicseaweed.com/api/aa1171867a9a7698c04e99235767afb8/forecast/?spot_id=87'
+    r = requests.get(url)
+    my_data = r.json()
+
+    convertdate = my_data[4]["localTimestamp"]
+    dateeightamtmrw = (datetime.datetime.fromtimestamp(
+        int(convertdate)
+    ).strftime('%Y-%m-%d'))
+    # print(dateeightamtmrw)
+
+    swelldata = my_data[4]["swell"]
+    # print(thedata)
+
+    maxwavesize = swelldata["maxBreakingHeight"]
+    minwavesize = swelldata["minBreakingHeight"]
+    avgwavesize = (maxwavesize + minwavesize) / 2
+    # print("average wave size is", avgwavesize)ls
+    swellperiod = swelldata["components"]["combined"]["period"]
+    # print(swellperiod)
+    swelldir = swelldata["components"]["combined"]["compassDirection"]
+    # print(swelldir)
+    winddata = my_data[4]["wind"]
+    # print(winddata)
+    windspeed = winddata["speed"]
+    # print(windspeed)
+    kmhwind = windspeed * 1.609344
+    # print(kmhwind, "kmh")
+    winddirect = winddata["compassDirection"]
+    # winddirect = "SW"
+    # print(winddir)
+    temp = my_data[4]["condition"]["temperature"]
+    # print(temp)
+    # send("if you go surf tomorrow morning", dateeightamtmrw)
+    # print("expect:")
+    if winddirect == "SSW" or winddirect == "SW" or winddirect == "WSW" or winddirect == "W" or winddirect == "WNW" or winddirect == "NW" or winddirect == "NNW":
+        offshore = ("Offshore Wind 💨 - " + winddirect)
+    else:
+        offshore = ("Onshore vibes 💩 - " + winddirect)
+    #
+    if temp < 23:
+        wetsuit = ("Wear your wetsuit, it will be chilly ☃️ - less than 23c")
+
+    else:
+        wetsuit = ("Nice and warm. 👙 Wear Boardies 🌴")
+
+    if avgwavesize < 3.5:
+        waves = ("There's a little bit of swell. 2-3ft 👀")
+
+    elif avgwavesize < 2:
+        waves = ("Not much swell around. 1-2ft 🏝")
+
+    elif avgwavesize < 6:
+        waves = ("There's some swell. 4-6ft. 🏄🏼‍♂️")
+
+    elif avgwavesize > 6.1:
+        waves = ("Gonna be pretty big 😲 . 6ft+")
+
+    elif avgwavesize > 10:
+        waves = ("Gonna be HUGE!! 🌊 10ft +")
+
+    send("Forecast for today:")
+    send(dateeightamtmrw)
+    send("Expect the following: ")
+    send(offshore)
+    send(wetsuit)
+    send(waves)
 
 
 def main():
@@ -106,7 +176,7 @@ def main():
     # on different commands - answer in Telegram
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("check", check))
-
+    dp.add_handler(CommandHandler("today", today))
 
     # Start the Bot
     updater.start_polling()
